@@ -1,0 +1,52 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: rgba(100, 148, 237, 0.246);
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgba(161, 230, 59, 0.977);
+}
+input[type="name"],
+input[type="father"],
+input[type="adress"],
+input[type="password"],
+input[type="email"],
+select{
+    width: 100%;
+    padding: 8px;
+    border-style:dashed rgba(29, 35, 204, 0.709);
+}
+fieldset{
+    color:black;
+    background-color: rgba(150, 144, 56, 0.446);
+    border: dashed coral;
+    padding: 10px;
+}
+legend{
+    background-color: burlywood;
+    color:green;
+}
+.btn-sub{
+    background-color: rgba(46, 226, 43, 0.96);
+    color:white;
+    font-size: 22px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:zoom-in;
+    width: 100%;
+}
+.btn-sub:hover{
+    background-color: rgb(30, 30, 93);
+}
+option{
+    background-color: rgba(51, 80, 135, 0.469);
+    color: bisque;
+}
+select{
+    background-color: lightseagreen;
+    color: bisque;
+}
